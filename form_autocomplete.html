@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+     <meta charset="UTF-8">
+     <meta name="description" content="Esta página mostrará ejemplo pratico en HTML y CSS">
+     <meta name="robots" content="index,follow">
+     <title>Pagina Ejemplo Práctico HTML-CSS</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+    </head>    
+    <body>
+        <main>
+            <form action="">
+                <label for="nombre">
+                  <span>Cual es tu Nombre?:</span>
+                  <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+                </label>
+              
+                <label for="correo">
+                  <span>Cual es tu Correo?:</span>
+                  <input type="email" id="correo" name="correo" autocomplete="email" required>
+                </label>
+              
+                <label for="pais">
+                  <span>Cual es tu Páis:</span>
+                  <input type="text" id="pais" name="pais" autocomplete="country" required>
+                </label>
+              
+                <label for="cp">
+                  <span>Cual es tu codigo postal?:</span>
+                  <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+                </label>
+
+
+                <!-- forma buena practica para realizar select en HTML -->
+                    <input list="cursos">
+                    <datalist id="cursos">
+                        <option value="JavaScript"></option>
+                        <option value="HTML5"></option>
+                        <option value="CSS3"></option>
+                        <option value="Web Standars"></option>
+                    </datalist>    
+
+                
+                <!-- existen 2 tipos de botones  -->
+                 <input type="submit" value="enviar input"> 
+                 <br>
+                 <br>
+                 <!-- este es mas flexible -->
+                 <button type="submit">Enviar button</button>   
+              </form>     
+        </main>
+    </body> 
+</html>
+    
