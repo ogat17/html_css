@@ -1,0 +1,67 @@
+/* Clase css 1 generalidades y formas de llamar */
+
+/* por elemento */
+p
+{
+    color: blue;
+    font-size: 20px;
+}
+
+/* por clase (class) */
+
+.parrafo 
+{
+color: red;
+font-size: 30px ;
+}
+
+
+/* por id */
+
+#texto 
+{
+color: yellow;
+font-size: 50px ;
+}
+
+/* Clase CSS 2 Pseudo clases y Pseudo elementos */
+
+
+/* Pseudo clases */
+.main-nav
+{
+margin-top: 10px;
+list-style: none;
+padding-left: 0px;
+background-color: #13a4a4;
+}
+
+.main-nav__item
+{
+    display: inline-block;
+}
+
+.main-nav__item a
+{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover
+{
+     color: blue
+}
+
+.main-nav__item a:active
+{
+     color: red
+}
+
+/* Pseudo elementos */
+
+.main-nav__item a::after
+{
+    content:"  |  ";
+}
