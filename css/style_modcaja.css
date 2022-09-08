@@ -1,0 +1,19 @@
+/* css modelo de caja */
+/* esta es la etiqueta universal para quitar estilos del navegador por defecto */
+/* selector universal es el asterisco -- siempre debe ir esto en nuestra hoja de estilos */
+*
+{
+/*  esto dimensiona automaticamente el excedente para no generar scroll horizontal suma el 
+padding con el width del elemento -- */
+box-sizing: border-box; 
+padding: 0;
+margin: 0;
+}
+
+main
+{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}
