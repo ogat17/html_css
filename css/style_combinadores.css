@@ -1,4 +1,9 @@
-/* combinador hermano cercano Adjacent Siblings  */
+/* combinador hermano cercano Adjacent Siblings para index_combinadores*/
 h2 + p{
+    color: red;
+}
+
+/* combinador hermano cercano GeneralSiblings para index_combinadores 2 */
+h2 ~ p{
     color: red;
 }
