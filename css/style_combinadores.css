@@ -7,3 +7,16 @@ h2 + p{
 h2 ~ p{
     color: red;
 }
+
+/* combinador Hijo (child) directo para index_combinadores 3 */
+
+div > p {
+color: red;
+}
+
+/* combinador Descendiente para index_combinadores 3 */
+
+div p {
+    color: red;
+    }
+
