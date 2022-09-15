@@ -1,0 +1,22 @@
+*
+{
+box-sizing: border-box; 
+padding: 0;
+margin: 0;
+}
+html {
+ font-size: 62.5%; /* esto es para garantizar que la dimension este 
+ en proporcion en todo el estilo de la pagina 
+ esto lo que hara es darle a el html un valor de 10px ya que 16px - 62.5% = 10px
+ si por ejemplo a una etiqueta le asignamos 2rem este hara referencia a 20px,
+ o si por ejemplo le damos un valor de 1.5rem su valor sera de 15px
+ */
+}
+
+p {
+ font-size: 1.6rem; /* 1rem equivale a 10px para este estilo osea que 1.6 son 16px */
+}
+
+main div {
+  font-size: 1.6rem;
+}
