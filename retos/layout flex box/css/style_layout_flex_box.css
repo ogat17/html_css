@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+background-color: rgba(0, 0, 95, 0.932);
+color: white;
+font-family:Arial, Helvetica, sans-serif;
+display: flex;
+flex-wrap:wrap ;
+}
+
+.icono { 
+    height: 5rem;
+    border-radius: 0.2rem;
+}
+
+figure {
+    display: inline-block;
+    padding-left: 1rem;
+        
+}
+
+nav {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-basis: 40rem;
+    flex-grow: 1;    
+}
+
+.nav-header {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-header li {
+    align-items :center;
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 1.0rem 0;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+}
+
+main{
+    /* border: 0.3rem solid black; */
+    display: flex;
+
+
+    } 
+
+.section-men {
+    display: flex;
+    flex-wrap:wrap ;
+    background-color:purple;
+    width: 15vw;
+    min-width: 15rem;
+    min-height: 60rem;  
+    border: 0.3rem solid black;
+    }
+
+.div-caja-men{
+    width: 12vw;
+    min-width: 12rem;
+    height: 10vh;
+    min-height: 10rem;
+    margin: 1.0rem auto;
+    border: 0.3rem solid white;
+    
+}
+
+.text-principal{
+    margin: 2.0rem;
+    text-align: justify;
+   }
+
+.foot{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: rgba(7, 12, 6, 0.932);    
+    color: white;    
+    height: 10vh;
+    align-items: center;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    text-align: justify;
+
+   }
